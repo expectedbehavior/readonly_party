@@ -5,8 +5,8 @@ require "readonly_party/version"
 Gem::Specification.new do |gem|
   gem.authors       = ["Joel Meador"]
   gem.email         = ["joel@expectedbehavior.com"]
-  gem.description   = %q{This is meant to be used in the same way as HTTParty and uses it under the covers. Except, when the ReadonlyParty module is included in a class, it explicitly disallow post, put, delete, and patch methods from being called on that class.}
-  gem.summary       = %q{An HTTParty where the resources never change, the points are made up, and everyboday wins}
+  gem.description   = %q{This is meant to be used in the same way as HTTParty and uses it under the covers. Except, when the ReadonlyParty module is included in a class, it explicitly disallows post, put, delete, and patch methods from being called on that class.}
+  gem.summary       = %q{An HTTParty where the resources never change, the points are made up, and everyboday wins.}
   gem.homepage      = "http://www.expectedbehavior.com"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
