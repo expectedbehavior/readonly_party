@@ -1,5 +1,6 @@
 require "minitest/autorun"
 require "webmock/minitest"
+require "minitest/pride"
 
 require "readonly_party"
 
